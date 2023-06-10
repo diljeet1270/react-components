@@ -1,5 +1,6 @@
 import './App.css'
 import Section from './components/Section'
+import NavBar from './components/NavBar'
 let data_set=[
   {
     title: "About me",
@@ -18,7 +19,7 @@ const App =()=> {
 
   return (
     <div>
-     
+     <NavBar/>
    {
       data_set.map((value)=>
         <Section
